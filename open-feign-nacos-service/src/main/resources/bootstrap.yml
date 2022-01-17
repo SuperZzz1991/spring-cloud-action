@@ -1,0 +1,10 @@
+server:
+  port: 8501
+
+spring:
+  application:
+    name: open-feign-nacos-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848

@@ -1,0 +1,13 @@
+server:
+  port: 8201
+spring:
+  application:
+    name: nacos-ribbon-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+#服务地址配置
+service-url:
+  nacos-user-service: http://nacos-user-service
