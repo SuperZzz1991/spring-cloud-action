@@ -15,6 +15,7 @@
         <module>gateway-nacos-config</module>
         <module>sentinel-service</module>
         <module>sentinel-service</module>
+        <module>oauth2-server</module>
     </modules>
 
     <properties>
