@@ -16,6 +16,7 @@
         <module>sentinel-service</module>
         <module>sentinel-service</module>
         <module>oauth2-server</module>
+        <module>oauth2-jwt-server</module>
     </modules>
 
     <properties>
