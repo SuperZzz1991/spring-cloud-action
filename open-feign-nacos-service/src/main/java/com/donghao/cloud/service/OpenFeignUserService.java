@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
  * @Date: 2022/1/14 09:23
  * @Description:
  */
-@FeignClient(value = "nacos-user-service")
+@FeignClient(value = "nacos-user-service", fallback = MyFallbackService.class)
 public interface OpenFeignUserService {
     @PostMapping("/user/create")
     OpenFeignResponse create(@RequestBody OpenFeignUser openFeignUser);
